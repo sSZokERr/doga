@@ -60,13 +60,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        text.setOnClickListener(new View.OnClickListener() {
+        text.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
-            public void onClick(View view) {
+            public boolean onLongClick(View view) {
                 text.setText(String.valueOf(0));
                 text.setTextColor(Color.rgb(0,0,255));
+                return true;
             }
         });
+
     }
 
     private void init(){

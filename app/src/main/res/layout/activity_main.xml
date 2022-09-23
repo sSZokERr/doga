@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".MainActivity"
-    android:id="@+id/back">
+    android:id="@+id/back"
+    >
 
     <Button
         android:layout_width="50dp"
